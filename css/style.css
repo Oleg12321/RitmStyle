@@ -1,0 +1,143 @@
+*, 
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Ibarra Real Nova';
+}
+
+.header {
+    font-family: 'Ibarra Real Nova';
+    background:  rgba(22, 40, 49, 1);
+    font-size: 14px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 1);
+    padding-bottom: 150px;
+}
+
+.header_top {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 50px 0;
+
+}
+
+.header_menu {
+    display: flex;
+    align-items: center;
+}
+
+.header_p{
+    margin: 0;
+}
+
+.header_p + .header_p{
+    margin-left: 50px;
+}
+
+.btn {
+    font-size: 13px;
+    line-height: 18px;
+    padding: 9px 15px;
+}
+
+.btn-primary {
+    font-size: 13px;
+    line-height: 18px;
+    padding: 9px 15px;
+}
+
+.header_content {
+    background-image: url(images/title.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_t {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.header_text {
+    font-family: 'Ibarra Real Nova';
+    margin: 0px 66px;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.header_title {
+    font-size: 64px;
+    line-height: 90px;
+    width: 587px;
+    text-align: center;
+}
+
+.main {
+    font-family: 'Ibarra Real Nova';
+    background:  rgba(22, 40, 49, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.s_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.section_top-content{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 24px;
+}
+
+.s_text {
+    margin: 0px 45px;
+    text-align: center;
+}
+
+.s_photo-big {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-image: url(images/s_title-big.png);
+    background-repeat: no-repeat;
+    height: 540px;
+    width: 416px;
+    border-bottom: 7px solid rgba(1, 138, 190, 1);
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.s_t {
+    font-size: 24px;
+    line-height: 34px;
+    margin: 50px;
+}
+
+.s_photo-small {
+    background-image: url(images/s_title-small.png);
+    background-repeat: no-repeat;
+    height: 256px;
+    width: 416px;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.s_ti {
+    font-size: 24px;
+    line-height: 34px;
+    margin: 30px 40px;
+}
